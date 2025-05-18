@@ -1,0 +1,3 @@
+[submodule "native/ffmpeg"]
+	path = native/ffmpeg
+	url = https://ghproxy.net/https://github.com/FFmpeg/FFmpeg.git
