@@ -11,9 +11,10 @@
     "esModuleInterop": true,
     "lib": ["ESNext", "DOM"],
     "skipLibCheck": true,
-    "noEmit": true
+    "noEmit": true,
+    "types": ["@webgpu/types"],
   },
-  "include": ["src"],
+  "include": ["src", "global.d.ts"],
   "references": [
     { "path": "./tsconfig.node.json" }
   ]

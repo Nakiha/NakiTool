@@ -1,4 +1,5 @@
+import { ipcRenderer } from "electron"
 
-window.ipcRenderer.on('main-process-message', (_event, ...args) => {
+ipcRenderer.on('main-process-message', (_event, ...args) => {
   console.log('[Receive Main-process message]:', ...args)
 })

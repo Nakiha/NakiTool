@@ -1,4 +1,5 @@
 {
+  "editor.tabSize": 2,
   "typescript.tsdk": "node_modules/typescript/lib",
   "typescript.tsc.autoDetect": "off",
   "json.schemas": [
@@ -9,5 +10,12 @@
       ],
       "url": "https://json.schemastore.org/electron-builder"
     }
-  ]
+  ],
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#00c2c2cb",
+    "editorCursor.background": "#f0dc00",
+    "activityBar.background": "#203301",
+    "titleBar.activeBackground": "#2C4801",
+    "titleBar.activeForeground": "#F3FEE0"
+  }
 }
